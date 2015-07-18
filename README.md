@@ -4,4 +4,4 @@
 ###Or
 `python3 rate.py`
 
-Then, input a movie_name
+Then, input a movie_name.
