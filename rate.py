@@ -23,11 +23,10 @@ class Movie:
 
 
 if __name__ == '__main__':
-    while True:
-        try:
-            name = sys.argv[1]
-        except:
-            name = input('Input a movie name: ')
-        movie = Movie(name)
-        for i in movie.douban_rate():
-            print(' / '.join(i))
+    try:
+        name = sys.argv[1]
+    except:
+        name = input('Input a movie name: ')
+    movie = Movie(name)
+    for i in movie.douban_rate():
+        print(' / '.join(i))
